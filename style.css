@@ -1,0 +1,247 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+html{
+  font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  body{ 
+    background-color: rgb(252, 251, 251);
+}
+.side-bar{
+  max-width: 244px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  padding-bottom: 20px;
+  padding-top: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: 1px solid rgb(212, 210, 210);
+}
+.logo img{
+  width: 130px;
+  padding: 25px 10px 16px 12px;
+  line-height: 18px;
+  margin-bottom: 15px;
+  
+}
+.DP img{
+  border-radius: 50%;
+
+}
+.DP{
+  margin: 8px 0;
+  padding: 12px;
+  width: 220px;
+  border-radius: 25px;
+}
+
+.nav-link{
+  padding: 12px;
+  margin: 8px 0;
+  width: 220px;
+  border-radius: 25px;
+}
+
+.navigation a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.navigation a img{
+  padding-right: 8px;
+
+}
+.nav-link:hover, .DP:hover{
+  background-color: rgb(236, 235, 235);
+
+}
+.stories{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  padding: 10px;
+  margin-top: 25px;
+  align-items: center;
+  width: 470px;
+  border-radius: 6px;
+  border: 1px solid rgb(212, 210, 210);
+  position: relative;
+  margin-left: 300px;
+}
+.middle{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ 
+
+}
+.suggestion{
+  width: 390px;
+  margin-right: 50px;
+  margin-top: -1000px;
+  padding-top: 0px;
+  height: 5px;
+}
+.stories-link{
+  padding-left: 11.5px;
+}
+.stories-link a img{
+  display: block;
+  
+}
+.stories-link img{
+  border: 2px solid transparent;
+  border-radius: 50%;
+  padding: 1px;
+  background: linear-gradient(white, white) padding-box,
+      linear-gradient(to right, rgb(250, 226, 46),red, rgb(173, 30, 230)) border-box;
+  
+}
+.stories-link a{
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(67, 65, 65);
+}
+
+
+.profile{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.profile-link{
+  margin-top: 10px;
+}
+
+.profile-link img{
+  margin-right: 10px;
+  padding-left: 1px;
+  border: 1px solid rgb(199, 198, 198);
+  border-radius: 50%;
+
+}
+.profile-name{
+  padding-top: 12px; 
+  font-size: 14px;
+  margin-left:-70px;
+  color: rgb(105, 104, 104);
+  margin-top: 10px;
+}
+.profile-name a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  
+}
+.switch a{
+  color: rgb(14, 139, 241);
+  text-decoration: none;
+  font-size: 13px;
+
+  
+}
+.switch{
+  padding-left: 110px;
+  padding-top: 40px;
+  text-align: right;
+}
+
+.for{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 40px 5px 10px;
+  font-size: 14px;
+  color: rgb(132, 132, 132);
+  font-weight: 500;
+  width: 97%;
+}
+.for a{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.follow p{
+  font-size: 12px;
+}
+.follow{
+  margin-top: 2px;
+  margin-bottom: 0;
+  width: 370px;
+  height: 20px;
+ 
+}
+.follow .profile{
+  margin-bottom: -2px;
+  line-height: 1.5;
+}
+.follow .profile-name{
+  padding-top: 1px;
+}
+
+#world{
+  padding-left: 24px;
+}
+#jay{
+  padding-left: 27px;
+}
+.omah{
+  padding-right: 10px;
+}
+.last{
+  padding-left: 12px;
+}
+.sec{
+  padding-left: 15px;
+}
+.kids{
+  padding-left: 17px;
+}
+/*.switch .switchh-link a{
+  padding-right: 70px;
+  margin-bottom: 10px;
+}*/
+.footer a{
+  text-decoration: none;
+  color: rgb(189, 188, 188);
+  font-size: 13px;
+  padding: 2px;
+}
+.footer a:hover{
+  text-decoration: underline;
+
+}
+.footer{
+  margin-top: 20px;
+}
+.insta{
+  padding-top: 15px;
+  font-size: 13px;
+  color: rgb(189, 188, 188);
+}
+.post{
+    background-color: rgb(255, 255, 255);
+      padding: 10px;
+      margin-top: 15px;
+      width: 470px;
+      border-radius: 6px;
+      border: 1px solid rgb(212, 210, 210);
+      margin-left: 300px;
+ 
+}
+.top-persona{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link1 img{
+  border-radius: 50%;
+  border: 1px solid rgb(228, 227, 227);
+}
+.link1 a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+
